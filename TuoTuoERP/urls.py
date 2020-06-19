@@ -28,4 +28,16 @@ urlpatterns = [
     path('stocklistview/',views.stocklistview),
     path('orderList/', views.orderList),
     path('search/', views.search_item),
+    path('projectList/',views.projectList),
+    path('projectlistview/', views.projectlistview),
+
+    path('stockRecord/',views.stockRecord),
+
+    path('stockInhis/',views.stockInlist),
+    path('stockInrec/',views.stockInrec),
+    path('add_Storage/',views.add_Storage),
+
+    path('stockOuthis/', views.stockOutlist),
+    path('stockOutrec/',views.stockOutrec),
+    path('add_Storageout/',views.add_Storageout),
 ]

@@ -78,6 +78,7 @@ WSGI_APPLICATION = 'TuoTuoERP.wsgi.application'
 import pymysql      # 注意要加上这些
 pymysql.install_as_MySQLdb()     # 注意要加上这些
 
+# 测试
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',

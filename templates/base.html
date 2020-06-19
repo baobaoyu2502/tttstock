@@ -20,9 +20,9 @@
     <div class="layui-logo">欢迎使用托托库存管理系统</div>
     <!-- 头部区域（可配合layui已有的水平导航） -->
     <ul class="layui-nav layui-layout-left">
-      <li class="layui-nav-item"><a href="">库存管理</a></li>
-      <li class="layui-nav-item"><a href="">订单管理</a></li>
-      <li class="layui-nav-item"><a href="">项目管理</a></li>
+      <li class="layui-nav-item"><a href="/stockList/">库存管理</a></li>
+      <li class="layui-nav-item"><a href="/orderList/">采购管理</a></li>
+      <li class="layui-nav-item"><a href="/projectList">项目管理</a></li>
       <li class="layui-nav-item"><a href="https://www.tuotuot.com">网站链接</a></li>
     </ul>
 
@@ -78,11 +78,12 @@
             <dd><a href="/stockIn/">入库管理</a></dd>
           </dl>
         </li>
-        <li class="layui-nav-item">
-          <a href="javascript:;">出入库历史</a>
+        <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+        <li class="layui-nav-item layui-nav-itemed">
+          <a class="" href="javascript:;">出入库历史</a>
           <dl class="layui-nav-child">
-            <dd><a href="javascript:;">入库历史</a></dd>
-            <dd><a href="javascript:;">出库历史</a></dd>
+            <dd><a href="/stockInhis/">入库历史</a></dd>
+            <dd><a href="/stockOuthis/">出库历史</a></dd>
           </dl>
         </li>
       </ul>

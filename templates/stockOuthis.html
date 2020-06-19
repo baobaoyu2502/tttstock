@@ -3,14 +3,10 @@
 <div class="layui-body">
     <div class="layui-fluid"  >
         <blockquote class="layui-elem-quote">
-            <h1>库存列表</h1>
+            <h1>出库记录</h1>
         </blockquote>
-
 {#        <div class="layui-row">#}
 {#                <div class="layui-fluid layui-form component">#}
-{##}
-{##}
-{##}
 {#			        <select name="modules" lay-verify="required" lay-search="">#}
 {#						<option value="">搜索料号</option>#}
 {#						<option value="1">0701</option>#}
@@ -22,7 +18,7 @@
 {#			        <i class="layui-icon">&#xe615;</i>#}
 {#			    </div>#}
 {#        </div>#}
-        </div>
+{#        </div>#}
 
         <div class="layui-fluid"  >
             <table class="layui-hide" id="test" ></table>
@@ -35,7 +31,7 @@
 
               table.render({
                 elem: '#test'
-                ,url: '/stocklistview/'
+                ,url: '/stockOutrec/'
                 ,page:true
                 ,limit:15
                 ,limits:[5,15,20]
@@ -45,18 +41,18 @@
                 ,cols: [[
                     {type: 'checkbox'}
                   {#,{field:'id', width:80, title: 'ID', sort: true}#}
-                  ,{field:'projectid', width:100, title: '项目id', sort: true}
-                  ,{field:'itemNo', width:150, title: '料号', sort: true}
-                  ,{field:'type', width:150, title: '类型'}
-                  ,{field:'partNo', title: '型号', width: 150}
-                  ,{field:'description', width:150, title: '描述', sort: true}
-                  ,{field:'quantity', width:75, title: '数量', align: 'right', sort: true}
-                  ,{field:'image', width:80, title: '示例图'}
-                  ,{field:'Vendor', width:160, title: '供应商', sort: true}
-                  ,{field:'period', width:135, title: '货期', sort: true}
-                  ,{field:'cost', width:135, title: '成本', sort: true}
-                  ,{field:'link', width:135, title: '链接'}
-                  ,{field:'comment', width:135, title: '备注'}
+                  ,{field:'projectid',  title: '项目id'}
+                  ,{field:'itemNo',  title: '料号', sort: true}
+                  {#,{field:'type', width:150, title: '类型'}#}
+                  {#,{field:'partNo', title: '型号', width: 150}#}
+                  {#,{field:'description', width:150, title: '描述', sort: true}#}
+                  ,{field:'quantity',  title: '数量', align: 'right', sort: true}
+                  ,{field:'recordtime',  title: '记录时间', align: 'right', sort: true}
+                  {#,{field:'image', width:80, title: '示例图'}#}
+                  {#,{field:'Vendor', width:160, title: '入库日期', sort: true}#}
+                  {#,{field:'cost', width:135, title: '成本', sort: true}#}
+                  {#,{field:'link', width:135, title: '链接'}#}
+                  {#,{field:'comment', width:135, title: '备注'}#}
                 ]]
 
 

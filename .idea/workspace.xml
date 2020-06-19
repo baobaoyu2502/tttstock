@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -28,9 +29,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -41,6 +51,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Django Server.TuoTuoERP">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TuoTuoERP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TuoTuoERP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,7 +109,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="80" />
+      <option name="port" value="8000" />
       <option name="host" value="192.168.124.11" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -89,10 +121,12 @@
     </configuration>
     <list>
       <item itemvalue="Django Server.TuoTuoERP" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.views" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
@@ -110,10 +144,23 @@
       <workItem from="1586395193965" duration="9283000" />
       <workItem from="1586739837064" duration="6072000" />
       <workItem from="1586845504884" duration="1655000" />
-      <workItem from="1587088874655" duration="77035000" />
-      <workItem from="1592536483256" duration="642000" />
-      <workItem from="1592548980849" duration="449000" />
+      <workItem from="1587088874655" duration="86825000" />
+      <workItem from="1588120421221" duration="4000000" />
+      <workItem from="1589528118963" duration="2219000" />
+      <workItem from="1590146994707" duration="603000" />
+      <workItem from="1590453799667" duration="3003000" />
+      <workItem from="1592286754419" duration="47404000" />
+      <workItem from="1592465090625" duration="5823000" />
+      <workItem from="1592552800946" duration="510000" />
     </task>
+    <task id="LOCAL-00001" summary="20200426 something coming out">
+      <created>1587949031840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587949031841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,31 +179,87 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/atswarehouse" />
+    </ignored-roots>
+    <MESSAGE value="20200426 something coming out" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200426 something coming out" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="480" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592549353768">
+    <state x="1025" y="334" key="#Deployment" timestamp="1592465174406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="480" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592549353768" />
-    <state width="1340" height="286" key="GridCell.Tab.0.bottom" timestamp="1592549355964">
+    <state x="1025" y="334" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1592465174406" />
+    <state x="706" y="196" key="#Options" timestamp="1592465024533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592549355964" />
-    <state width="1340" height="286" key="GridCell.Tab.0.center" timestamp="1592549355962">
+    <state x="706" y="196" key="#Options/0.0.1920.1040@0.0.1920.1040" timestamp="1592465024533" />
+    <state x="1009" y="321" key="#SSH_Configurations" timestamp="1592465152593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592549355962" />
-    <state width="1340" height="286" key="GridCell.Tab.0.left" timestamp="1592549355962">
+    <state x="1009" y="321" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1592465152593" />
+    <state x="631" y="117" key="#TuoTuoERP" timestamp="1592291665385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592549355962" />
-    <state width="1340" height="286" key="GridCell.Tab.0.right" timestamp="1592549355963">
+    <state x="631" y="117" key="#TuoTuoERP/0.0.1920.1040@0.0.1920.1040" timestamp="1592291665385" />
+    <state x="515" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592552830465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592549355963" />
+    <state x="515" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592552830465" />
+    <state x="348" y="128" width="849" height="506" key="EnvironmentVariablesDialog" timestamp="1592291656361">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="348" y="128" width="849" height="506" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592291656361" />
+    <state x="715" y="289" key="FileChooserDialogImpl" timestamp="1592287134630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="289" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592287134630" />
+    <state width="1340" height="286" key="GridCell.Tab.0.bottom" timestamp="1592552974244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592552974244" />
+    <state width="1340" height="286" key="GridCell.Tab.0.center" timestamp="1592552974244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592552974244" />
+    <state width="1340" height="286" key="GridCell.Tab.0.left" timestamp="1592552974244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592552974244" />
+    <state width="1340" height="286" key="GridCell.Tab.0.right" timestamp="1592552974244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592552974244" />
+    <state x="734" y="328" key="SettingsEditor" timestamp="1592552814193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="328" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592552814193" />
+    <state x="585" y="236" width="667" height="804" key="find.popup" timestamp="1592458350081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="236" width="667" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592458350081" />
+    <state x="830" y="465" key="ftp.server.browser" timestamp="1592464486138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="830" y="465" key="ftp.server.browser/0.0.1920.1040@0.0.1920.1040" timestamp="1592464486138" />
+    <state x="547" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1592381707324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="547" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592381707324" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/manage.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TuoTuoERP$test.coverage" NAME="test Coverage Results" MODIFIED="1592385294205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/TuoTuoERP$views.coverage" NAME="views Coverage Results" MODIFIED="1587536342388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/storage" />
   </component>
 </project>
